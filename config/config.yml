@@ -1,0 +1,4 @@
+parameters:
+
+services:
+  Jakala\Validator\JsonSchemaValidator:
