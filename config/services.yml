@@ -6,3 +6,6 @@ services:
         autoconfigure: true
 
     Jakala\Validator\JsonSchemaValidator:
+
+    jakala.json.schema.validator:
+        alias: Jakala\Validator\JsonSchemaValidator
