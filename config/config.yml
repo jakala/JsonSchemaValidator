@@ -1,5 +1,6 @@
 parameters:
 
 services:
-  Jakala\Validator\JsonSchemaValidator:
-    autowire: true
+    Jakala\Validator\JsonSchemaValidator:
+       autowire: true
+       public: true
