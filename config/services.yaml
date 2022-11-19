@@ -1,11 +1,9 @@
 parameters:
 
 services:
-    _defaults:
-        autowire: true
-        autoconfigure: true
-
     Jakala\Validator\JsonSchemaValidator:
+        autowire: true
 
-    jakala.json.schema.validator:
+    json.schema.validator:
         alias: Jakala\Validator\JsonSchemaValidator
+        public: true

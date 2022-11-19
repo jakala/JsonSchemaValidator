@@ -17,5 +17,8 @@ final class JsonSchemaValidatorExtension extends Extension
 
         $loader = new YamlFileLoader($container, $configDir);
         $loader->load('services.yaml');
+
+        $schema = new ConfigSchema();
+        $this->processConfiguration($schema, $configs);
     }
 }

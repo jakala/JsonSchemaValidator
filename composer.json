@@ -2,24 +2,24 @@
     "name": "jakala/json-schema-validator",
     "description": "Symfony service to use schema json validator",
     "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "Jakala\\Validator\\": "src"
+        }
+    },
     "require": {
         "justinrainbow/json-schema": "^5.2"
     },
-    "authors": [
-        {
-            "name": "Angel Cid",
-            "email": "angel.cid@gmail.com"
-        }
-    ],
     "require-dev": {
         "symfony/dependency-injection": "^6.1",
         "symfony/config": "^6.1",
         "symfony/http-kernel": "^6.1",
         "symfony/yaml": "^6.1"
     },
-    "autoload": {
-        "psr-4": {
-            "Jakala\\Validator\\": "src"
+    "authors": [
+        {
+            "name": "Angel Cid",
+            "email": "angel.cid@gmail.com"
         }
-    }
+    ]
 }
