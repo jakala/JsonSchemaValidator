@@ -1,0 +1,7 @@
+{
+  "bundles": {
+    "Jakala\\Validator\\JsonSchemaValidatorBundle":  [
+      "all"
+    ]
+  }
+}
